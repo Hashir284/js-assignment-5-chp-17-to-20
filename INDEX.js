@@ -167,7 +167,7 @@ function get2() {
     if (orderMatch === true) {
         ai = checked + ' is available at index ' + checkedi + ' in our bakery'
     } else {
-        ai = 'We are sorry this item is not available in our bakery we have only ' + bakkery.join(', ')
+        ai = 'We are sorry ' + checkbakkery + ' is not available in our bakery we have only ' + bakkery.join(', ')
     }
     document.getElementById('ans2').innerHTML = `<p class='injs'>Order Details:<br> ${ai}</p>`
     console.log(ai);
